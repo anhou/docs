@@ -1,9 +1,9 @@
 RackHD Glossary
 =============================
 
-=================== ===================================================================================================
+=================== ========================================================================================================================================================================================================================================================
 RackHD Term         Definition
-=================== ===================================================================================================
+=================== ========================================================================================================================================================================================================================================================
 Bare Metal          The state of a compute node, storage node, or switch where there is no OS, Hypervisor, or Application deployed.
 Bare Metal OS       An operating system that runs directly on top of the hardware/firmware, unlike an OS running in a virtual machine.
 BMC                 Baseboard Management Controller. A BMC is a specialized microcontroller embedded on the motherboard of a system that manages the interface between system management software and the physical hardware on the system.
@@ -22,4 +22,4 @@ SDS                 Software-defined storage (SDS) allows for management of data
 SLA                 As used in a Converged Infrastructure, refers to a specific set of Service-level Objective (SLO) targets that collectively define a level of service required to support an application or infrastructure.
 SLO                 A set of specific targets or metrics that can be used to prescribe a level of service or  to measure the effectiveness of a Converged Infrastructure in delivering to that level of service.
 VM                  Virtual Machine - the emulation of a computer system providing compute, network, and storage resources. VMs run within a hypervisor that manages the resource assignments
-=================== ===================================================================================================
+=================== ========================================================================================================================================================================================================================================================
