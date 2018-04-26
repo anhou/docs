@@ -24,6 +24,8 @@ Setup RackHD Service
 
 .. code-block:: shell
 
+    mkdir ~/src
+    git clone https://github.com/RackHD/RackHD
     cd ~/src/RackHD/example/rackhd
     sudo docker-compose up –d
 

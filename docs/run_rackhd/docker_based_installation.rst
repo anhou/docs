@@ -12,6 +12,17 @@ Install Docker & Docker Compose
 |Install Docker Compose| https://docs.docker.com/compose/install/#install-compose|
 +----------------------+---------------------------------------------------------+
 
+.. note::
+
+    If you would try provisioning ESXi on the virtual node, change settings of the kvm module in the host OS.
+
+    .. code::
+
+        rmmod kvm_intel
+        rmmod kvm
+        modprobe kvm ignore_msrs=1
+        modprobe kvm_intel eptad=1 nested=1
+
 Download Source Code
 ~~~~~~~~~~~~~~~~~~~~~
 
